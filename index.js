@@ -6,7 +6,7 @@ bodyEl.addEventListener("mousemove", (event)=>{
     const spanEl = document.createElement("span");
     spanEl.style.left = xPos + "px";
     spanEl.style.top = yPos + "px";
-    const size = Math.random()*100;
+    const size = Math.random()*500;
     spanEl.style.width = size + "px"
     spanEl.style.height = size + "px"
 
